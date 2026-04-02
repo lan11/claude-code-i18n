@@ -1,0 +1,161 @@
+Auto-compact
+Show tips
+Reduce motion
+Thinking mode
+`Fast mode (${Ok} only)`
+Prompt suggestions
+Rewind code (checkpoints)
+Verbose output
+Terminal progress bar
+Show turn duration
+Default permission mode
+Respect .gitignore in file picker
+Always copy full response (skip /copy picker)
+Auto-update channel
+Theme
+Notifications
+Output style
+Language
+Editor mode
+Model
+Auto-install IDE extension
+Enable Claude in Chrome by default
+Claude in Chrome enabled by default
+Auto-connect to IDE (external terminal)
+Show PR status footer
+Usage
+Status
+Config
+Search settings...
+ more above
+ more below
+more below
+Esc to cancel
+Edit and press Enter to retry, or Esc to cancel
+Enter to submit · Esc to cancel
+Tab to toggle · Enter to confirm · Esc to cancel
+Enter to copy link · Esc to cancel
+Press ↑↓ to navigate, Enter to select, Esc to cancel
+Esc to cancel · r to cycle dates
+· Esc to cancel
+Enter to confirm · Esc to cancel
+/usage is only available for subscription plans.
+Welcome back!
+API Usage Billing
+Tips for getting started
+Run /init to create a CLAUDE.md file with instructions for Claude
+Recent activity
+No recent activity
+create a util logging.py that...
+Initialize a new CLAUDE.md file with codebase documentation
+Review changed code for reuse, quality, and efficiency, then fix any issues found.
+Add a new working directory
+Clear conversation history and free up context
+Set the prompt bar color for this session
+Clear conversation history but keep a summary in context. Optional: /compact [instructions for summarization]
+Open config panel
+Copy Claude's last response to clipboard (or /copy N for the Nth-latest)
+Show the total cost and duration of the current session
+Continue the current session in Claude Desktop
+View uncommitted changes and per-turn diffs
+Diagnose and verify your Claude Code installation and settings
+Set effort level for model usage
+Exit the REPL
+Export the current conversation to a file or clipboard
+Show help and available commands
+View hook configurations for tool events
+Manage IDE integrations and show status
+Set up Claude GitHub Actions for a repository
+Install the Claude Slack app
+Sign in with your Anthropic account
+Sign out from your Anthropic account
+Manage MCP servers
+Edit Claude memory files
+Show QR code to download the Claude mobile app
+Manage allow & deny tool permission rules
+Enable plan mode or view the current session plan
+Manage Claude Code plugins
+View release notes
+Activate pending plugin changes in the current session
+Rename the current conversation
+Resume a previous conversation
+Restore the code and/or conversation to a previous point
+List available skills
+Show your Claude Code usage statistics and activity
+Show Claude Code status including version, model, account, API connectivity, and tool statuses
+Order Claude Code stickers
+List and manage background tasks
+Install Shift+Enter key binding for newlines
+Change the theme
+Upgrade to Max for higher rate limits and more Opus
+Show plan usage limits
+Toggle between Vim and Normal editing modes
+Research and plan a large-scale change, then execute it in parallel across 5‑30 isolated worktree agents that each open a PR.
+Build apps with the Claude API or Anthropic SDK.
+Enable debug logging for this session and help diagnose issues
+Generate a report analyzing your Claude Code sessions
+Run a prompt or slash command on a recurring interval (e.g. /loop 5m /foo, defaults to 10m)
+Get comments from a GitHub pull request
+Review a pull request
+Complete a security review of the pending changes on the current branch
+Set up Claude Code's status line UI
+Config dialog dismissed
+shift+tab to cycle
+Manage agent configurations
+Create a branch of the current conversation at this point
+Ask a quick side question without interrupting the main conversation
+Claude in Chrome (Beta) settings
+Visualize current context usage as a colored grid
+Use this skill to configure the Claude Code harness via settings.json.
+`Toggle fast mode (${Ok} only)`
+`Set the AI model for Claude Code (currently ${oj(Z5())})`
+Commit, push, and open a PR
+Create a git commit
+Create verifier skill(s) for automated verification of code changes
+Open or create your keybindings configuration file
+Connect this terminal for remote-control sessions
+Configure the advisor model
+Deprecated: use /config to change output style
+Configure extra usage to keep working when limits are hit
+Skip this picker in the future
+Toggle a searchable tag on the current session
+Show current context usage
+Show total cost and duration of the current session
+Install Claude Code native build
+Show orange progress bar at bottom (default: true)
+Color theme for the UI
+Show detailed debug output
+Preferred notification channel
+Custom model
+Override the default model
+Auto-compact when context is full
+Enable auto-memory
+Enable background memory consolidation
+Enable file checkpointing for code rewind
+Enable Remote Control for all sessions
+Show one guided-tour tooltip and wait for the user to click Next
+Run a command with a time limit
+Create, update, list, or run scheduled remote agents (triggers) that execute on a cron schedule.
+Duration to sleep (seconds or with suffix like 5s, 2m, 1h)
+Provide an explanation of a shell command
+Copy Claude's last response or a code block to clipboard
+Create a fork of the current conversation at this point
+Manage hook configurations for tool events
+Set the AI model for Claude Code
+Set the output style directly or from a selection menu
+⚠ sandbox disabled (⏎ to configure)
+Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDK, or Agent SDK.
+Type to filter
+Type to filter · Enter/↓ select · ↑ tabs · Esc clear
+(↓ to select)
+{shortcut:"Enter/↓",action:"select"}
+{shortcut:"↑",action:"tabs"}
+{action:"confirm:no",context:"Settings",fallback:"Esc",description:"clear"}
+{shortcut:"Enter",action:"save"}
+{action:"confirm:no",context:"Confirmation",fallback:"Esc",description:"cancel"}
+{shortcut:"Enter",action:"search"}
+{action:"select:accept",context:"Settings",fallback:"Space",description:"change"}
+{action:"settings:close",context:"Settings",fallback:"Enter",description:"save"}
+{action:"settings:search",context:"Settings",fallback:"/",description:"search"}
+{action:"confirm:no",context:"Settings",fallback:"Esc",description:"cancel"}
+{shortcut:"Esc",action:"cancel"}
